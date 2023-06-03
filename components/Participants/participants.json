@@ -1,0 +1,129 @@
+[   {
+        "id":1 ,
+        "name":"name1",
+        "imagePath":"/pp/chef.jpg",
+        "text":"lorem ipsum dolor sit amet "
+    },
+    {"id":2 ,
+        "name":"name2",
+        "imagePath":"/pp/chef.jpg",
+        "text":"lorem ipsum dolor sit amet "
+    },
+    {"id":3 ,
+        "name":"name3",
+        "imagePath":"/pp/chef.jpg",
+        "text":"lorem ipsum dolor sit amet "
+    },
+    {"id":4 ,
+        "imagePath":"/pp/chef.jpg",
+        "normalText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore iste" ,
+        "expandedText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore perferendis iste. Rem voluptatibus quisquam architecto tempore molestiae vitae molestias nobis alias maxime?" 
+    },
+    {"id":5 ,
+        "name":"name5",
+        "imagePath":"/pp/chef.jpg",
+        "text":"text2 "
+    },
+    {"id":6 ,
+        "name":"name1",
+        "imagePath":"/pp/chef.jpg",
+        "text":"text2"
+    },
+    {"id":7 ,
+        "name":"name1",
+        "imagePath":"/pp/chef.jpg",
+        "text":"text2"
+    },
+    {"id":8 ,
+        "imagePath":"/pp/chef.jpg",
+        "normalText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore iste" ,
+        "expandedText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore perferendis iste. Rem voluptatibus quisquam architecto tempore molestiae vitae molestias nobis alias maxime?" 
+     },
+    {"id":9 ,
+        "name":"name1",
+        "imagePath":"/pp/chef.jpg",
+        "text":"text2"
+    },
+    {"id":10 ,
+        "name":"name1",
+        "imagePath":"/pp/chef.jpg",
+        "text":"text2"
+    },
+    {"id":11 ,
+        "name":"name1",
+        "imagePath":"/pp/chef.jpg",
+        "text":"text2"
+    },
+    {"id":12 ,
+        "name":"name1",
+        "imagePath":"/pp/chef.jpg",
+        "normalText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore iste" ,
+        "expandedText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore perferendis iste. Rem voluptatibus quisquam architecto tempore molestiae vitae molestias nobis alias maxime?" 
+     },
+    {"id":13 ,
+        "name":"name1",
+        "imagePath":"/pp/chef.jpg",
+        "text":"text2"
+    },
+    {"id":14,
+        "name":"name1",
+        "imagePath":"/pp/chef.jpg",
+        "text":"text2"
+    },
+    {"id":15 ,
+        "name":"name1",
+        "imagePath":"/pp/chef.jpg",
+        "text":"text2"
+    },
+    {"id":16,
+        "name":"name1",
+        "imagePath":"/pp/chef.jpg",
+        "normalText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore iste" ,
+        "expandedText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore perferendis iste. Rem voluptatibus quisquam architecto tempore molestiae vitae molestias nobis alias maxime?" 
+     },
+    {"id":17 ,
+        "name":"name1",
+        "imagePath":"/pp/chef.jpg",
+        "text":"text2"
+    },
+    {"id":18 ,
+        "name":"name1",
+        "imagePath":"/pp/chef.jpg",
+        "text":"text2"
+    },
+    {"id":19,
+        "name":"name1",
+        "imagePath":"/pp/chef.jpg",
+        "text":"text2"
+    },
+    {"id":20 ,
+        "name":"name1",
+        "imagePath":"/pp/chef.jpg",
+        "normalText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore iste" ,
+        "expandedText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore perferendis iste. Rem voluptatibus quisquam architecto tempore molestiae vitae molestias nobis alias maxime?" 
+    },
+    {"id":21 ,
+        "name":"name1",
+        "imagePath":"/pp/chef.jpg",
+        "text":"text2"
+    },
+    {"id":22 ,
+        "name":"name1",
+        "imagePath":"/pp/chef.jpg",
+        "text":"text2"
+    },
+    {"id":23 ,
+        "name":"name1",
+        "imagePath":"/pp/chef.jpg",
+        "text":"text2"
+    },
+    {"id":24 ,
+        "name":"name1",
+        "imagePath":"/pp/chef.jpg",
+        "normalText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore iste" ,
+        "expandedText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore perferendis iste. Rem voluptatibus quisquam architecto tempore molestiae vitae molestias nobis alias maxime?" 
+      }
+    
+    
+
+]
