@@ -4,7 +4,12 @@ type Props = {}
 
 const About = (props: Props) => {
   return (
-    <div className=''>This is about</div>
+    <div className=''>
+      this is about
+     
+
+
+    </div>
   )
 }
 

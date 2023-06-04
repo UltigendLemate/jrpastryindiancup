@@ -10,8 +10,8 @@ const Gallery = () => {
       <div className='grid grid-cols-2 md:grid-cols-4 px-3 bg-white gap-3 justify-center items-center'>
         <img src="/pics/1.webp" alt="" className='object-contain rounded-md col-span-2 md:row-span-2 md:object-cover md:w-full md:h-full' />
         <img src="/pics/DSC_0104.webp" alt="" className='object-contain rounded-md col-span-1 row-span-2 ' />
-        <img src="/pics/DSC_0146.webp" alt="" className='object-contain rounded-md col-span-1' />
-        <img src="/pics/DSC_0136.webp" alt="" className='object-contain rounded-md col-span-1' />
+        <img src="/pics/DSC_0146.webp" alt="" className='object-contain rounded-md col-span-1  md:object-cover md:w-full md:h-full' />
+        <img src="/pics/DSC_0136.webp" alt="" className='object-contain rounded-md col-span-1  md:object-cover md:w-full md:h-full' />
 
 
         <img src="/pics/DSC_0141.webp" alt="" className='object-contain rounded-md col-span-1' />
