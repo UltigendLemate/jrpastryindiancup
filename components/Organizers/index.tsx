@@ -9,7 +9,7 @@ import styles from "../../styles/Organizers.module.css"
 const index = () => {
   return (
     
-    <div className={`${styles.customBackground} bg-[length:50%] bg-top  2xl:bg-[length:30%] opacity-80   `} >
+    <div className={`${styles.customBackground} bg-[length:50%] bg-top  2xl:bg-[length:30%] opacity-70   `} >
         <div className=' text-[#EFEBE0]  text-4xl md:text-5xl p-3 mx-auto  font-semibold   flex justify-center'>Our Organizers</div>
       <div className="sm:grid sm:grid-cols-2 max-w-5xl m-auto gap-4 md:gap-8 p-4  ">
        
