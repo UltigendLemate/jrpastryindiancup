@@ -1,7 +1,7 @@
 .customBackground {
-    background-image: url('../components/images/f1.jpg');
-    background-size: cover;
-    background-position: center;
+    background-image: url('../components/images/cream.jpg');
+    /* background-size:50%;
+    background-position:  center; */
   }
   .hide-scroll-bar {
     -ms-overflow-style: none;

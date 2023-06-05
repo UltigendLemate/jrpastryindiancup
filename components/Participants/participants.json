@@ -1,128 +1,107 @@
 [   {
         "id":1 ,
-        "name":"name1",
-        "imagePath":"/pp/chef.jpg",
-        "text":"lorem ipsum dolor sit amet "
+        "name":"Amar",
+        "imagePath":"/pp/chef.jpg"
     },
     {"id":2 ,
-        "name":"name2",
-        "imagePath":"/pp/chef.jpg",
-        "text":"lorem ipsum dolor sit amet "
+        "name":"Akbar",
+        "imagePath":"/pp/chef.jpg"
     },
     {"id":3 ,
-        "name":"name3",
-        "imagePath":"/pp/chef.jpg",
-        "text":"lorem ipsum dolor sit amet "
+        "name":"Anthony",
+        "imagePath":"/pp/chef.jpg"
     },
     {"id":4 ,
-        "imagePath":"/pp/chef.jpg",
-        "normalText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore iste" ,
-        "expandedText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore perferendis iste. Rem voluptatibus quisquam architecto tempore molestiae vitae molestias nobis alias maxime?" 
-    },
+    
+    "city":"Delhi",
+    "institute":"Fiitjee",
+    "normalText":" Lorem ipsum dolor sit ,architecto nihil repellate .amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam"
+ },
     {"id":5 ,
-        "name":"name5",
-        "imagePath":"/pp/chef.jpg",
-        "text":"text2 "
-    },
-    {"id":6 ,
-        "name":"name1",
-        "imagePath":"/pp/chef.jpg",
-        "text":"text2"
-    },
-    {"id":7 ,
-        "name":"name1",
-        "imagePath":"/pp/chef.jpg",
-        "text":"text2"
-    },
+    "name":"Anthony",
+        "imagePath":"/pp/chef.jpg"
+},
+{"id":6 ,"name":"Anthony",
+"imagePath":"/pp/chef.jpg"
+},
+{"id":7 ,"name":"Anthony",
+"imagePath":"/pp/chef.jpg"
+},
     {"id":8 ,
-        "imagePath":"/pp/chef.jpg",
-        "normalText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore iste" ,
-        "expandedText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore perferendis iste. Rem voluptatibus quisquam architecto tempore molestiae vitae molestias nobis alias maxime?" 
-     },
-    {"id":9 ,
-        "name":"name1",
-        "imagePath":"/pp/chef.jpg",
-        "text":"text2"
-    },
-    {"id":10 ,
-        "name":"name1",
-        "imagePath":"/pp/chef.jpg",
-        "text":"text2"
-    },
-    {"id":11 ,
-        "name":"name1",
-        "imagePath":"/pp/chef.jpg",
-        "text":"text2"
-    },
-    {"id":12 ,
-        "name":"name1",
-        "imagePath":"/pp/chef.jpg",
-        "normalText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore iste" ,
-        "expandedText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore perferendis iste. Rem voluptatibus quisquam architecto tempore molestiae vitae molestias nobis alias maxime?" 
-     },
-    {"id":13 ,
-        "name":"name1",
-        "imagePath":"/pp/chef.jpg",
-        "text":"text2"
-    },
-    {"id":14,
-        "name":"name1",
-        "imagePath":"/pp/chef.jpg",
-        "text":"text2"
-    },
-    {"id":15 ,
-        "name":"name1",
-        "imagePath":"/pp/chef.jpg",
-        "text":"text2"
-    },
-    {"id":16,
-        "name":"name1",
-        "imagePath":"/pp/chef.jpg",
-        "normalText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore iste" ,
-        "expandedText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore perferendis iste. Rem voluptatibus quisquam architecto tempore molestiae vitae molestias nobis alias maxime?" 
-     },
-    {"id":17 ,
-        "name":"name1",
-        "imagePath":"/pp/chef.jpg",
-        "text":"text2"
-    },
-    {"id":18 ,
-        "name":"name1",
-        "imagePath":"/pp/chef.jpg",
-        "text":"text2"
-    },
-    {"id":19,
-        "name":"name1",
-        "imagePath":"/pp/chef.jpg",
-        "text":"text2"
-    },
+    "city":"Delhi",
+    "institute":"Fiitjee",
+    "normalText":" Lorem ipsum dolor sit ,architecto nihil repellate .amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam"
+ },
+     {"id":9 ,
+     "name":"Anthony",
+        "imagePath":"/pp/chef.jpg"
+ },
+ {"id":10 ,
+ "name":"Anthony",
+    "imagePath":"/pp/chef.jpg"
+},
+{"id":11,
+"name":"Anthony",
+   "imagePath":"/pp/chef.jpg"
+},
+{"id":12 ,
+"city":"Delhi",
+"institute":"Fiitjee",
+"normalText":" Lorem ipsum dolor sit ,architecto nihil repellate .amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam"
+
+},
+{"id":13 ,
+"name":"Anthony",
+   "imagePath":"/pp/chef.jpg"
+},
+{"id":14 ,
+"name":"Anthony",
+   "imagePath":"/pp/chef.jpg"
+},
+{"id":15 ,
+"name":"Anthony",
+   "imagePath":"/pp/chef.jpg"
+},
+{"id":16 ,
+"city":"Delhi",
+"institute":"Fiitjee",
+"normalText":" Lorem ipsum dolor sit ,architecto nihil repellate .amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam"
+  
+},
+{"id":17 ,
+"name":"Anthony",
+   "imagePath":"/pp/chef.jpg"
+},
+{"id":18 ,
+"name":"Anthony",
+   "imagePath":"/pp/chef.jpg"
+},
+{"id":19 ,
+"name":"Anthony",
+   "imagePath":"/pp/chef.jpg"
+},
     {"id":20 ,
-        "name":"name1",
-        "imagePath":"/pp/chef.jpg",
-        "normalText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore iste" ,
-        "expandedText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore perferendis iste. Rem voluptatibus quisquam architecto tempore molestiae vitae molestias nobis alias maxime?" 
+    "city":"Delhi",
+    "institute":"Fiitjee",
+    "normalText":" Lorem ipsum dolor sit ,architecto nihil repellate .amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam"
     },
     {"id":21 ,
-        "name":"name1",
-        "imagePath":"/pp/chef.jpg",
-        "text":"text2"
+    "name":"Anthony",
+       "imagePath":"/pp/chef.jpg"
     },
     {"id":22 ,
-        "name":"name1",
-        "imagePath":"/pp/chef.jpg",
-        "text":"text2"
-    },
+    "name":"Anthony",
+       "imagePath":"/pp/chef.jpg"
+},
     {"id":23 ,
-        "name":"name1",
-        "imagePath":"/pp/chef.jpg",
-        "text":"text2"
-    },
-    {"id":24 ,
-        "name":"name1",
-        "imagePath":"/pp/chef.jpg",
-        "normalText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore iste" ,
-        "expandedText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam, temporibus similique impedit labore perferendis iste. Rem voluptatibus quisquam architecto tempore molestiae vitae molestias nobis alias maxime?" 
-      }
+    "name":"Anthony",
+       "imagePath":"/pp/chef.jpg"},
+      {"id":24 ,
+      "city":"Delhi",
+      "institute":"Fiitjee",
+      "normalText":" Lorem ipsum dolor sit ,architecto nihil repellate .amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam"
+   
+  }
     
     
 
