@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Footer from "../Footer";
 import Navbar from "../Navbar";
 import Sponsors from "../Sponsors";
+import Link from "next/link";
 
 type Props = {
   children: React.ReactNode;
