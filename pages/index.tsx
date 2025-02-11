@@ -12,6 +12,8 @@ import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
+
   return (
     <Layout>
 
@@ -34,6 +36,8 @@ export default function Home() {
         <img src="banner.jpg" alt="pstry queen event logo" className='max-h-72 aspect-auto' />
         </Link>
       </div>
+
+
     </Layout>
   )
 }
