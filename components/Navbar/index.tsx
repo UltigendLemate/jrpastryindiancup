@@ -25,7 +25,7 @@ const Index = () => {
           <div>
             <div className="flex items-center justify-between py-3  lg:block">
               <Link href="/">
-                <Image src={Logo} alt='' width={1080} height={1080} className='w-24 h-24' />
+                <Image src={Logo} alt='' width={1080} height={1080} className='h-20 md:h-24 w-auto' />
               </Link>
               <div className="lg:hidden">
                 <button
@@ -64,14 +64,19 @@ const Index = () => {
                     Rules And Regulations
                   </Link>
                 </li>
-                <li className="lg:text-base text-base bg-primary mb-4 lg:mb-0 hover:bg-primary rounded-lg text-black py-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-400">
-                  {/* <button  onClick={() => setShowModal(true)}>
-                    Register Now!
-                  </button> */}
+                {/* <li className="lg:text-base text-base bg-primary mb-4 lg:mb-0 hover:bg-primary rounded-lg text-black py-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-400"> */}
+                <li className="lg:text-base text-base text-black mx-2 mb-2 px-2 lg:py-2 pb-2 lg:mb-0 text-center font-semibold lg:hover:bg-gray-300 hover:underline-offset-8 decoration-pink-500 underline-offset-8 hover:cursor-pointer lg:hover:text-black transition-all duration-400 rounded-lg">
                   <Link href="https://tour.jrpastryindiancup.com" onClick={() => setNavbar(!navbar)}>
                     Virtual Tour
                   </Link>
                 </li>
+                <li className="lg:text-base text-base bg-primary mb-4 lg:mb-0 hover:bg-primary rounded-lg text-black py-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-400">
+                  
+                <button  onClick={() => setShowModal(true)}>
+                    Register Now!
+                  </button>
+                </li>
+               
               </ul>
             </div>
           </div>
@@ -93,7 +98,7 @@ const Index = () => {
                 </Link>
               </li>
               <li className='bg-primary text-center text-white px-5 py-2 text-xl rounded-xl  hover:bg-pink-300 cursor-pointer'>
-                <Link href='https://ihe2023.paperform.co/'>
+                <Link href='https://www.ihexpo.com/visitor-registration/'>
                 Visitor
                 </Link>
               </li>
