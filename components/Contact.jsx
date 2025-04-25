@@ -1309,10 +1309,8 @@ export default function Contact() {
                                     <div className="w-full">
                                         <h4 className="text-dark mb-1 text-xl font-bold">Our Location</h4>
                                         <p className="text-body-color text-base md:text-lg">
-                                            Hammer Publishers Pvt. Ltd. <br />
-                                            206, Samrat Bhawan, Ranjit Nagar
-                                            Commercial Complex, Behind Inox Cinema
-                                            New Delhi - 110008
+                                        Hammer Management & Marketing Services <br/>
+                                        M-68, Guru Harkishan Nagar, New Delhi - 110087
                                         </p>
                                     </div>
                                 </div>

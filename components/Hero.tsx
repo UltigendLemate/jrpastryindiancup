@@ -21,7 +21,7 @@ const Hero = (props: Props) => {
 
 
         <div className='text-white text-[1.1rem] mx-auto w-full text-center sm:text-3xl lg:text-5xl font-bold uppercase'>
-          Junior Pastry Indian Cup 2025
+          Junior Pastry Indian Cup 2025 4th Edition
           {/* <Typewriter
             options={{
               strings: [' Junior Pastry Indian Cup 2025'],
