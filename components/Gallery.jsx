@@ -8,6 +8,23 @@ const Gallery = () => {
     <>
       <h1 className='special-font text-[3.7rem] pb-5 mt-28 bg-white text-center sm:text-7xl md:text-8xl text-primary'>Gallery</h1>
       <div className='grid grid-cols-2 md:grid-cols-4 px-3 bg-white gap-3 justify-center items-center'>
+        <img src="/jpic2023/IMG_2017.JPG" alt="JPIC 2023 Image 1" className='object-contain rounded-md w-full h-full' />
+        <img src="/jpic2023/IMG_2027.JPG" alt="JPIC 2023 Image 2" className='object-contain rounded-md w-full h-full' />
+        <img src="/jpic2023/IMG_2165.JPG" alt="JPIC 2023 Image 3" className='object-contain rounded-md w-full h-full' />
+        <img src="/jpic2023/IMG_2228.JPG" alt="JPIC 2023 Image 4" className='object-contain rounded-md w-full h-full' />
+        <img src="/jpic2023/IMG_2390.JPG" alt="JPIC 2023 Image 5" className='object-contain rounded-md w-full h-full' />
+        <img src="/jpic2023/IMG_2461.JPG" alt="JPIC 2023 Image 6" className='object-contain rounded-md w-full h-full' />
+        <img src="/jpic2023/IMG_2537.JPG" alt="JPIC 2023 Image 7" className='object-contain rounded-md w-full h-full' />
+        <img src="/jpic2023/IMG_2591.JPG" alt="JPIC 2023 Image 8" className='object-contain rounded-md w-full h-full' />
+        <img src="/jpic2023/IMG_2651.JPG" alt="JPIC 2023 Image 9" className='object-contain rounded-md w-full h-full' />
+        <img src="/jpic2023/IMG_2668.JPG" alt="JPIC 2023 Image 10" className='object-contain rounded-md w-full h-full' />
+        <img src="/jpic2023/IMG_2676.JPG" alt="JPIC 2023 Image 11" className='object-contain rounded-md w-full h-full' />
+        <img src="/jpic2023/IMG_2679.JPG" alt="JPIC 2023 Image 12" className='object-contain rounded-md w-full h-full' />
+        <img src="/jpic2023/IMG_2715.JPG" alt="JPIC 2023 Image 13" className='object-contain rounded-md w-full h-full' />
+        <img src="/jpic2023/IMG_2785.JPG" alt="JPIC 2023 Image 14" className='object-contain rounded-md w-full h-full' />
+        <img src="/jpic2023/IMG_2930.JPG" alt="JPIC 2023 Image 15" className='object-contain rounded-md w-full h-full' />
+        <img src="/jpic2023/IMG_2953.JPG" alt="JPIC 2023 Image 16" className='object-contain rounded-md w-full h-full' />
+
         <img src="/pics/1.webp" alt="" className='object-contain rounded-md col-span-2 md:row-span-2 md:object-cover md:w-full md:h-full' />
         <img src="/pics/DSC_0104.webp" alt="" className='object-contain rounded-md col-span-1 row-span-2 ' />
         <img src="/pics/DSC_0146.webp" alt="" className='object-contain rounded-md col-span-1' />
