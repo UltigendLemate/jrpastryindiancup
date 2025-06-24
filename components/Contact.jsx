@@ -10,10 +10,19 @@ export default function Contact() {
     const controls = useAnimation();
     const [ref, inView] = useInView({ threshold: 0.2 });
     const form = useRef();
+
+
     const sendEmail = (e) => {
+        const formData = new FormData(form.current);
+        const templateParams = Object.fromEntries(formData.entries());
+        templateParams.website = "jrpastry";
         e.preventDefault();
         // console.log(form.current)
-        emailjs.sendForm('service_8vyys27', 'template_6m9mp0v', form.current, 'bIz0Cj4I0MEgua1CU')
+        emailjs.send(        
+            "service_vu9nhui",
+            "template_g6wd567",
+            templateParams,
+            "Ls8HTlnAMkyl7Ss-J")
             .then((result) => {
                 alert("Your Message has been Sent!")
                 console.log(result.text);
@@ -63,7 +72,7 @@ export default function Contact() {
                         focus-visible:shadow-none
                         focus:border-primary
                         "
-                                            name="from_name"
+                                            name="name"
                                         />
                                     </div>
                                     <div className="mb-4">
@@ -81,7 +90,7 @@ export default function Contact() {
                         focus-visible:shadow-none
                         focus:border-primary
                         "
-                                            name="user_email"
+                                            name="email"
 
                                         />
                                     </div>
@@ -100,7 +109,7 @@ export default function Contact() {
                         focus-visible:shadow-none
                         focus:border-primary
                         "
-                                            name="user_phone"
+                                            name="phone"
                                         />
                                     </div>
                                     <div className="mb-4">
