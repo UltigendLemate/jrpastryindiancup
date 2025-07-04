@@ -20,7 +20,15 @@ export default function Home() {
       {/* hero section + about | organizers | sponsors | Rules & Guidelines| Gallery | Participants | Contact | Register Now */}
 
       {/* className = text-primary or bg-primary will work. this is primary pink */}
-
+      <div className='bg-green-600 text-white py-2 overflow-hidden z-[9999] top-28 absolute w-full'>
+        <div className="whitespace-nowrap animate-marquee">
+          <span className="text-sm font-semibold uppercase tracking-wide">
+           {Array.from({ length: 10 }, (_, index) => (
+             <span key={index}>🚨 REGISTRATION CLOSES ON 15 JULY 2025 🚨 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+           ))}
+          </span>
+        </div>
+      </div>
       <Hero />
       <About />
       <Organizers />
