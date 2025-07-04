@@ -1,5 +1,16 @@
  [
-
+  {
+    "img": "/sponsors/apca.png",
+    "link": "https://www.apcaindia.com/",
+    "mini": "Academy of Pastry & Culinary Arts (APCA) is Asia's most awarded culinary and pastry institution, with campuses in India, Singapore, Malaysia, and beyond.",
+    "text": "Academy of Pastry & Culinary Arts (APCA) is Asia's most awarded culinary and pastry institution, with campuses in India, Singapore, Malaysia, and beyond. It offers intensive full-time and part-time programs focused on hands-on training, international faculty, and global internships. With 92% of sessions conducted in the kitchen, students craft their own products daily. APCA's commitment to excellence is reinforced by its City & Guilds London certification and a legacy of producing globally recognized pastry and culinary professionals."
+  },
+  {
+    "img": "/sponsors/zion.png",
+    "link": "https://www.zion-international.in",
+    "mini": "Zion International Food Ingredients Pvt. Ltd., based in New Delhi, is a leading manufacturer of premium cake premixes and bakery essentials.",
+    "text": "Zion International Food Ingredients Pvt. Ltd., based in New Delhi, is a leading manufacturer of premium cake premixes and bakery essentials. Their state-of-the-art facility produces eggless and egg-based mixes—chocolate, vanilla, red velvet, muffins, brownies—alongside glazes, fondants, non-dairy whipped cream toppings, cake mix improver, decorative colors and other bakery ingredients. Backed by rigorous R&D, stringent quality controls, FSSAI, ISO and Halal certifications, and an efficient national distribution network, they ensure consistent, reliable solutions for professionals, bakeries and home bakers."
+  },
     {
       "img": "/sponsors/verpaco.png",
       "link": "https://www.amverpaco.com",
