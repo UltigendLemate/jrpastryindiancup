@@ -13,7 +13,7 @@
       },
 
     {
-        "img" : "/images/sigep.webp",
+        "img" : "/sponsors/sigep.png",
         "link" : "https://en.sigep.it/",
         "mini" : "SIGEP stands as the global forefront in the dessert and coffee foodservice industry, offering a dedicated B2B showcase like no other. This essential event presents an unparalleled opportunity to explore the latest innovations, trends, and news within the sector, encompassing raw materials, ingredients, machinery, equipment, furnishings, packaging, and services. ",
         "text" : "SIGEP stands as the global forefront in the dessert and coffee foodservice industry, offering a dedicated B2B showcase like no other. This essential event presents an unparalleled opportunity to explore the latest innovations, trends, and news within the sector, encompassing raw materials, ingredients, machinery, equipment, furnishings, packaging, and services.\n As a unique platform for dialogue, SIGEP fosters meaningful discussions with industry professionals and companies. It serves as a hub for exchanging ideas, examining industry landscapes, and seizing business opportunities. This event also facilitates networking, professional development, and the sharing of knowledge.\n\nImmerse yourself in a five-day experience where you can engage face-to-face, shape the future of the dessert and coffee foodservice industry, and embrace Italy's renowned ambassador for Dolce. "
@@ -21,7 +21,7 @@
 
     {
         "img" : "/images/juniores pastry wc.png",
-        "link" : "https://en.sigep.it/",
+        "link" : "/",
         "mini" : "The Juniores World Pastry Cup is a unique team event aimed at young people under 26, offering them a highly educational opportunity to test their skills and find valuable inspiration to kickstart a rewarding and successful career.",
         "text" : "The Juniores World Pastry Cup is a unique team event aimed at young people under 26, offering them a highly educational opportunity to test their skills and find valuable inspiration to kickstart a rewarding and successful career. "
     }
