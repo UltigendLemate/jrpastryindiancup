@@ -19,14 +19,14 @@ const JuryCard = (props: Props) => {
         }
     }, [showModal])
   return (
-    <div  className='md:flex w-full shadow-md gap-5 justify-center items-center shadow-primary/10'>
-        <div className='from-primary to-white md:w-[40%] bg-gradient-to-b'>
+    <div className='w-full shadow-md shadow-primary/10 flex flex-col'>
+        <div className='from-primary to-white bg-gradient-to-b'>
             <img src={props.img} className='w-full h-full object-cover' alt="" />
         </div>
 
-        <div className='md:w-[60%] p-5 md:p-0'>
+        <div className='p-5'>
             <h2 className='text-xl font-bold mb-2'>{props.name}</h2>
-            <p className='text-sm '>{props.mini}</p>
+            <p className='text-sm mb-3 line-clamp-2'>{props.mini}</p>
             <p className='text-sm cursor-pointer text-primary underline' onClick={() => setShowModal(true)}>Know More</p>
         </div>
 

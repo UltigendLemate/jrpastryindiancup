@@ -1302,7 +1302,7 @@ export default function Contact() {
 
                                 <div className="mb-8 flex w-full max-w-[370px] md:max-w-md  ">
                                     <div
-                                        className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
+                                        className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px] text-white"
                                     >
                                         <svg
                                             width="24"
@@ -1325,7 +1325,7 @@ export default function Contact() {
                                 </div>
                                 <div className="mb-8 flex w-full max-w-[370px] ">
                                     <div
-                                        className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
+                                        className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px] text-white"
                                     >
                                         <svg
                                             width="24"
@@ -1351,7 +1351,7 @@ export default function Contact() {
                                 </div>
                                 <div className="mb-8 flex w-full max-w-[370px] ">
                                     <div
-                                        className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
+                                        className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px] text-white"
                                     >
                                         <svg
                                             width="28"

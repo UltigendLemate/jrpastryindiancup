@@ -9,7 +9,7 @@ const Hero = (props: Props) => {
   return (
     <div className=' w-[100vw] md:w-[98.8vw] py-16 md:py-2 p-2 relative mt-28   bg-white min-h-[75vh] md:min-h-[90vh] text-primary mainbg grid  justify-center items-center font-pop'>
       {/* <Image src={'/bg_main.png'} fill={true}/> */}
-      <div className='absolute w-full h-full bg-green-100/60 z-0'></div>
+      <div className='absolute w-full h-full bg-[#70e1b2]/60 z-0'></div>
       <div className='z-20'>
         {/* <h3 className='text-white text-lg text-center font-bold uppercase'>Hammer Foods Presents</h3> */}
         {/* <div className='flex flex-col text-center text-white text-3xl font-extrabold'>
@@ -18,7 +18,7 @@ const Hero = (props: Props) => {
         </div> */}
           {/* <img src="/pp/delta.png" className='ml-3 inline h-24 bg-white rounded-xl' alt="" /> */}
         {/* <h5 className='text-4xl text-center text-white tracking-[2rem]'>Presents</h5> */}
-        <h1 className='special-font text-[3.4rem] text-center sm:text-7xl mb-3 md:text-8xl lg:text-9xl  text-primary z-50'>PASTRY EVENT</h1>
+        <h1 className='special-font text-[3.4rem] text-center sm:text-7xl mb-3 md:text-8xl lg:text-9xl  text-black z-50'>PASTRY EVENT</h1>
 
 
         <div className='text-black text-[1.1rem] mx-auto w-full text-center sm:text-3xl lg:text-5xl font-bold uppercase'>

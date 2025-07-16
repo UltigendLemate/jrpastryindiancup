@@ -20,7 +20,7 @@ export default function Home() {
       {/* hero section + about | organizers | sponsors | Rules & Guidelines| Gallery | Participants | Contact | Register Now */}
 
       {/* className = text-primary or bg-primary will work. this is primary pink */}
-      <div className='bg-green-600 text-white py-2 overflow-hidden z-[9999] top-28 absolute w-full'>
+      {/* <div className='bg-green-200 text-white py-2 overflow-hidden z-[9999] top-28 absolute w-full'>
         <div className="whitespace-nowrap animate-marquee">
           <span className="text-sm font-semibold uppercase tracking-wide">
            {Array.from({ length: 10 }, (_, index) => (
@@ -28,13 +28,13 @@ export default function Home() {
            ))}
           </span>
         </div>
-      </div>
+      </div> */}
       <Hero />
       <About />
       <Organizers />
       <Sponsors />
-      {/* <Jury/> */}
-      {/* <Participants /> */}
+      <Jury/>
+      <Participants />
       {/* <div className='fixed w-10 h-10 top-0 left-0 bg-black'> </div> */}
       <Contact />
 <div className='mx-auto mb-10 -mt-10'>
