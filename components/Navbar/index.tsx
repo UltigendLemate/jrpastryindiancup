@@ -6,9 +6,16 @@ import { Twirl as Hamburger } from 'hamburger-react'
 import Image from "next/image"
 import Logo from "../../public/logo.jpg"
 type Props = {}
-import Data from "./Data"
+import { PartnersData } from "./Data"
 import { FaTimes } from 'react-icons/fa'
 import { motion } from "framer-motion"
+import { ChevronDown } from 'lucide-react'
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
 
 const Index = () => {
   const [navbar, setNavbar] = useState(false);
@@ -42,40 +49,108 @@ const Index = () => {
               className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${navbar ? 'p-12 md:p-0 block' : 'hidden'
                 }`}
             >
-              <ul className="h-screen lg:h-auto items-center justify-center py-2 lg:flex lg:flex-row mt-3 lg:mt-0 align-middle">
-                <div className='flex lg:flex-row flex-col align-middle justify-center'>
-                  {Data.map((Part, i) => (
-                    <div key={i}>
-                      <li className="lg:text-base text-base mb-4 text-black lg:px-4 lg:mb-0 text-center font-semibold hover:cursor-pointer hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent">
-                        <Link href={`/#${Part}`} onClick={() => setNavbar(!navbar)}>
-                          {Part}
-                        </Link>
-                      </li>
-                    </div>
-                  ))}
-                </div>
-                <li className="lg:text-base text-base mb-4 text-black lg:px-4 lg:mb-0 text-center font-semibold hover:cursor-pointer hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent">
-                  <Link href="/gallery" onClick={() => setNavbar(!navbar)}>
-                    Gallery
-                  </Link>
-                </li>
-                <li className="lg:text-base text-base text-black mx-2 mb-2 px-2 lg:py-2 pb-2 lg:mb-0 text-center font-semibold lg:hover:bg-gray-300 hover:underline-offset-8 decoration-pink-500 underline-offset-8 hover:cursor-pointer lg:hover:text-black transition-all duration-400 rounded-lg">
-                  <Link href="/jpic.pdf" onClick={() => setNavbar(!navbar)}>
-                    Rules And Regulations
-                  </Link>
-                </li>
-                {/* <li className="lg:text-base text-base bg-primary mb-4 lg:mb-0 hover:bg-primary rounded-lg text-black py-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-400"> */}
-                <li className="lg:text-base text-base text-black mx-2 mb-2 px-2 lg:py-2 pb-2 lg:mb-0 text-center font-semibold lg:hover:bg-gray-300 hover:underline-offset-8 decoration-pink-500 underline-offset-8 hover:cursor-pointer lg:hover:text-black transition-all duration-400 rounded-lg">
-                  <Link href="https://tour.jrpastryindiancup.com" onClick={() => setNavbar(!navbar)}>
-                    Virtual Tour
-                  </Link>
-                </li>
-                <li className="lg:text-base text-base bg-primary mb-4 lg:mb-0 hover:bg-primary rounded-lg text-black py-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-400">
+              <ul className="h-screen lg:h-auto items-center justify-center py-2 lg:flex lg:flex-row mt-3 lg:mt-0">
+                <div className='flex lg:flex-row flex-col lg:items-center justify-center'>
                   
-                <button  onClick={() => setShowModal(true)}>
-                    Register Now!
-                  </button>
-                </li>
+                  {/* About */}
+                  <div>
+                    <li className="lg:text-base text-base mb-4 text-black lg:px-4 lg:mb-0 text-center font-semibold hover:cursor-pointer hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent">
+                      <Link href="/#About" onClick={() => setNavbar(!navbar)}>
+                        About
+                      </Link>
+                    </li>
+                  </div>
+                  
+                  {/* Partners dropdown for desktop */}
+                  <div className="hidden lg:block">
+                    <li className="lg:text-base text-base mb-4 text-black lg:px-4 lg:mb-0 text-center font-semibold">
+                      <DropdownMenu>
+                        <DropdownMenuTrigger className="flex items-center hover:cursor-pointer hover:underline decoration-pink-500 underline-offset-8 hover:text-pink-500 transition-all duration-400 focus:outline-none">
+                          Partners
+                          <ChevronDown className="ml-1 h-4 w-4" />
+                        </DropdownMenuTrigger>
+                        <DropdownMenuContent className="w-48 bg-white border border-gray-200 shadow-lg">
+                          {PartnersData.map((partner, i) => (
+                            <DropdownMenuItem key={i} className="focus:bg-gray-100">
+                              <Link href={`/#${partner}`} className="w-full text-left block px-2 py-1 text-black hover:text-pink-500 transition-colors">
+                                {partner}
+                              </Link>
+                            </DropdownMenuItem>
+                          ))}
+                        </DropdownMenuContent>
+                      </DropdownMenu>
+                    </li>
+                  </div>
+                  
+                  {/* Partners items for mobile (individual items) */}
+                  <div className="lg:hidden">
+                    {PartnersData.map((partner, i) => (
+                      <div key={i}>
+                        <li className="lg:text-base text-base mb-4 text-black lg:px-4 lg:mb-0 text-center font-semibold hover:cursor-pointer hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent">
+                          <Link href={`/#${partner}`} onClick={() => setNavbar(!navbar)}>
+                            {partner}
+                          </Link>
+                        </li>
+                      </div>
+                    ))}
+                  </div>
+                  
+                  {/* Press */}
+                  <div>
+                    <li className="lg:text-base text-base mb-4 text-black lg:px-4 lg:mb-0 text-center font-semibold hover:cursor-pointer hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent">
+                      <Link href="/#Press" onClick={() => setNavbar(!navbar)}>
+                        Press
+                      </Link>
+                    </li>
+                  </div>
+                  
+                  {/* Gallery */}
+                  <div>
+                    <li className="lg:text-base text-base mb-4 text-black lg:px-4 lg:mb-0 text-center font-semibold hover:cursor-pointer hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent">
+                      <Link href="/gallery" onClick={() => setNavbar(!navbar)}>
+                        Gallery
+                      </Link>
+                    </li>
+                  </div>
+                  
+                  {/* Contact */}
+                  <div>
+                    <li className="lg:text-base text-base mb-4 text-black lg:px-4 lg:mb-0 text-center font-semibold hover:cursor-pointer hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent">
+                      <Link href="/#Contact" onClick={() => setNavbar(!navbar)}>
+                        Contact
+                      </Link>
+                    </li>
+                  </div>
+                  
+                  
+                  {/* Rules and Regulations */}
+                  <div>
+                    <li className="lg:text-base text-base text-black mx-2 mb-2 px-2 lg:py-2 pb-2 lg:mb-0 text-center font-semibold lg:hover:bg-gray-300 hover:underline-offset-8 decoration-pink-500 underline-offset-8 hover:cursor-pointer lg:hover:text-black transition-all duration-400 rounded-lg">
+                      <Link href="/jpic.pdf" onClick={() => setNavbar(!navbar)}>
+                        Rules & Regulations
+                      </Link>
+                    </li>
+                  </div>
+                  
+                  {/* Virtual Tour */}
+                  <div>
+                    <li className="lg:text-base text-base text-black mx-2 mb-2 px-2 lg:py-2 pb-2 lg:mb-0 text-center font-semibold lg:hover:bg-gray-300 hover:underline-offset-8 decoration-pink-500 underline-offset-8 hover:cursor-pointer lg:hover:text-black transition-all duration-400 rounded-lg">
+                      <Link href="https://tour.jrpastryindiancup.com" onClick={() => setNavbar(!navbar)}>
+                        Virtual Tour
+                      </Link>
+                    </li>
+                  </div>
+                  
+                  {/* Register Now */}
+                  <div>
+                    <li className="lg:text-base text-base bg-primary mb-4 lg:mb-0 hover:bg-primary rounded-lg text-black py-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-400">
+                      <button onClick={() => setShowModal(true)}>
+                        Register Now!
+                      </button>
+                    </li>
+                  </div>
+                  
+                </div>
                
               </ul>
             </div>

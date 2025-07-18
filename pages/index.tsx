@@ -7,6 +7,7 @@ import Sponsors from '@/components/Sponsors/Sponsors'
 import Organizers from '@/components/Organizers/index'
 import Participants from '@/components/Participants'
 import Jury from '@/components/Jury'
+import PressMedia from '@/components/PressMedia'
 import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -37,6 +38,7 @@ export default function Home() {
       <Participants />
       {/* <div className='fixed w-10 h-10 top-0 left-0 bg-black'> </div> */}
       <Contact />
+      <PressMedia />
 <div className='mx-auto mb-10 -mt-10'>
         <h2 className='text-center text-2xl pb-5'>Same Dedication, New Event</h2>
 

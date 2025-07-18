@@ -1,5 +1,5 @@
-const Data = [
-    "About", "Organizers", "Participants", "Jury", "Sponsors",  "Contact",
+export const PartnersData = [
+    "Organizers", "Participants", "Jury", "Sponsors"
 ]
 
-export default Data
+export default PartnersData

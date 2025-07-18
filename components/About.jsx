@@ -41,7 +41,7 @@ export default function About() {
         </p>
 
         <p>
-          This prestigious team-based event will take place during the IHE Expo 2025 at the India Expo Centre & Mart, Greater Noida, on August 3–4, 2025. Each team consists of two contestants (under 26 years of age) and one mentor, who also serves on the event&apos;s jury. The winning team will represent India at the Junior Pastry World Cup 2026, held at SIGEP WORLD in Rimini, Italy, with all travel and accommodation expenses fully covered.
+          This prestigious team-based event will take place during the IHE Expo 2025 at the India Expo Centre & Mart, Greater Noida, on August 3–4, 2025. Each team consists of two contestants (26 years of age) and one mentor, who also serves on the event&apos;s jury. The winning team will represent India at the Junior Pastry World Cup 2026, held at SIGEP WORLD in Rimini, Italy, with all travel and accommodation expenses fully covered.
         </p>
 
         <motion.div className='grid md:grid-cols-2 gap-10 py-10' ref={ref2}
@@ -86,7 +86,7 @@ export default function About() {
           <h3 className='text-2xl font-ProzaLibre text-primary mb-4'>Eligibility</h3>
           <ul className='list-disc pl-6 space-y-2'>
             <li>Open to Indian pastry chefs (male or female) born on or after January 20, 2000.</li>
-            <li>Contestants must be under 26 years of age as of January 20, 2026.</li>
+            <li>Contestants must be 26 years of age as of January 20, 2026.</li>
           </ul>
         </div>
 

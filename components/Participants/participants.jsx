@@ -180,7 +180,7 @@ export const data = [
     "name": "Mentor: Pratyay Keny",
     "imagePath": "/participants/Pratyay Keny.png",
     "isMentor": true,
-    "normalText": "Pratyay Keny is Pastry Chef at the Academy of Pastry & Culinary Arts, India, since January 2019, bringing over a decade of expertise in French patisserie, viennoiserie, and Kerala cuisine. He won Best Originality and placed 5th at Mondial des Arts Sucré 2022 in Paris and was 2nd in the Nestlé Young Chef Contest 2014. Formerly Sous Chef at La Folie Patisserie, Mumbai, and Adipoli, Kalyan, he excels in R&D, production supervision, and team training."
+    "normalText": "Pratyay Keny is the Executive Pastry Chef at APCA Bangalore, with over a decade of expertise in French pâtisserie, boulangerie, and viennoiserie. He represented India at the Mondial des Arts Sucré 2022, winning Best Originality and placing 5th globally. He also won the India Pastry Cup 2023 and competed at the Asian Pastry Cup 2024."
   },
   {
     "id": 28,
