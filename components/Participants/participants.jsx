@@ -1,30 +1,31 @@
 export const data = [
-  // {
-  //   "id": 1,
-  //   "name": "Fatima Khursheed",
-  //   "imagePath": "/participants/Fatima Khursheed.png",
-  //   "isMentor": false,
-  //   "normalText": "Fatima Khursheed is a Bakery & Pastry Supervisor at Trident Hotel, Agra, with three years' experience crafting innovative breads and desserts. Trained at Roseate House and Trident, Hyderabad, she earned 1st place in the French Patisserie Competition 2025 and represented Uttar Pradesh at IndiaSkills Bakery 2021. Recognized as Employee of the Month and Team of the Quarter, Fatima excels in menu innovation and team leadership."
-  // },
-  // {
-  //   "id": 2,
-  //   "city": "Trident Hotel, Agra",
-  //   "institute": "/team/8.png",
-  //   "normalText": "Trident Hotel, Agra team bringing innovation and excellence in pastry arts."
-  // },
-  // {
-  //   "id": 3,
-  //   "name": "Pallavi Shyamal",
-  //   "imagePath": "/participants/Pallavi Shyamal.png",
-  //   "isMentor": false,
-  //   "normalText": "Pallavi Shyamal is Chef de Partie, Bakery & Patisserie at The Oberoi Rajvilas, Jaipur, leading production, quality control, and menu execution since December 2024. Previously Demi Chef de Partie at IHCL Bhubaneswar, she honed her craft across breakfast operations, chocolate decoration, and buffet showpieces. Pallavi completed IHCL's Supervisory Development Program 2023 and won the IWEC Inspiration Award for Best Women Employee 2022, backed by an appreciation certificate from Radisson Blu Indore 2021."
-  // },
-  // {
-  //   "id": 4,
-  //   "city": "The Oberoi Rajvilas, Jaipur",
-  //   "institute": "/participants/oberio.png",
-  //   "normalText": "The Oberoi Rajvilas, Jaipur team representing luxury hospitality and pastry excellence."
-  // },
+  {
+    "id": 1,
+    "name": "Fatima Khursheed",
+    "imagePath": "/participants/Fatima Khursheed.png",
+    "isMentor": false,
+    "normalText": "Fatima Khursheed is a Bakery & Pastry Supervisor at Trident Hotel, Agra, with three years' experience crafting innovative breads and desserts. Trained at Roseate House and Trident, Hyderabad, she earned 1st place in the French Patisserie Competition 2025 and represented Uttar Pradesh at IndiaSkills Bakery 2021. Recognized as Employee of the Month and Team of the Quarter, Fatima excels in menu innovation and team leadership."
+  },
+  {
+    "id": 2,
+    "name": "Pallavi Shyamal",
+    "imagePath": "/participants/Pallavi Shyamal.png",
+    "isMentor": false,
+    "normalText": "Pallavi Shyamal is Chef de Partie, Bakery & Patisserie at The Oberoi Rajvilas, Jaipur, leading production, quality control, and menu execution since December 2024. Previously Demi Chef de Partie at IHCL Bhubaneswar, she honed her craft across breakfast operations, chocolate decoration, and buffet showpieces. Pallavi completed IHCL's Supervisory Development Program 2023 and won the IWEC Inspiration Award for Best Women Employee 2022, backed by an appreciation certificate from Radisson Blu Indore 2021."
+  },
+  {
+    "id": 3,
+    "name": "Mentor: Chinmaya Narasimiah",
+    "imagePath": "/participants/Chinmaya Narasimiah.png",
+    "isMentor": true,
+    "normalText": "Chinmaya Narasimiah has been Sous Chef at The Oberoi Rajvilās, Jaipur since 2024. He raised guest satisfaction at Rajmahal 's Indian restaurant to 90% and at Suryamahal 's pastry kitchen to 88%. A gold medalist from the Oberoi Centre for Learning & Development and winner of the Arjun Oberoi Gold Medal, he co-wrote Karnataka - A Culinary Jaunt and was crowned Mr. IHM Bangalore. He 's expert at kitchen hygiene checks, banquet planning, and training his team."
+  },
+  {
+    "id": 4,
+    "city": "The Oberoi Rajvilas, Jaipur",
+    "institute": "/participants/oberio.png",
+    "normalText": "The Oberoi Rajvilas, Jaipur team representing luxury hospitality and pastry excellence."
+  },
   {
     "id": 5,
     "name": "Swamini Tupe",
@@ -187,6 +188,33 @@ export const data = [
     "city": "Academy of Pastry & Culinary Arts, Bangalore",
     "institute": "/participants/apca bangalore.png",
     "normalText": "Academy of Pastry & Culinary Arts, Bangalore team representing professional pastry education and excellence."
+  },
+  {
+    "id": 29,
+    "name": "Rohit Kapri",
+    "imagePath": "/participants/Rohit Kapri.png",
+    "isMentor": false,
+    "normalText": "Rohit Kapri is a hospitality student at RIG Institute of Hospitality & Administration, Delhi, currently completing his Intermediate (2023). He interned for four months at Westin Turtle Bay Resort & Spa, Mauritius, and volunteered at Chefs Ride 2023. Showcasing his culinary curiosity, he participated in the \"Taste of Switzerland\" workshop in 2024. Known for responsibility, teamwork, and advanced MS Office skills, Rohit is poised to launch a promising culinary career."
+  },
+  {
+    "id": 30,
+    "name": "Ansh Karanwal",
+    "imagePath": "/participants/Ansh.png",
+    "isMentor": false,
+    "normalText": "Ansh Karanwal is a hospitality student at RIG Institute of Hospitality & Management, New Delhi. After completing his CBSE intermediate in 2021, he interned for four months at Le Meridien Ile Maurice. Ansh volunteered at Chef Ride 2023 and demonstrated culinary excellence at the \"Taste of Switzerland\" workshop in 2024. Known for responsibility, punctuality and teamwork, he has MS Office and advanced Excel skills and passion for cooking."
+  },
+  {
+    "id": 31,
+    "name": "Mentor: Satish Chandra",
+    "imagePath": "/participants/Chef Satish.png",
+    "isMentor": true,
+    "normalText": "Satish Chandra is a veteran pastry and bakery expert with 40 years across five-star hotels and culinary institutes. He serves as Visiting Faculty at the Indian Culinary Institute (Sector 62, Noida), FIHM Sector 63, and FHRAI Greater Noida, delivering hands-on training in artisanal breads and confections. A 1978 UP Board graduate, Satish excels in curriculum development, team mentoring, and innovative recipe design, leveraging decades of mastery to shape India's next generation of pastry professionals."
+  },
+  {
+    "id": 32,
+    "city": "RIG Institute of Hospitality & Administration, Delhi",
+    "institute": "/participants/RIG.png",
+    "normalText": "RIG Institute of Hospitality & Administration, Delhi team representing hospitality education and culinary excellence."
   },
 ]
  
