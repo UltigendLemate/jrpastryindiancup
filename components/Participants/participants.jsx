@@ -97,10 +97,10 @@ export const data = [
   },
   {
     "id": 15,
-    "name": "Mentor: Leo Praveen Xavier",
-    "imagePath": "/participants/Leo Praveen Xavier.png",
+    "name": "Mentor: Gaurav Kokamkar",
+    "imagePath": "/participants/Gaurav Kokamkar.png",
     "isMentor": true,
-    "normalText": "Leo Praveen Xavier is Brand Chef at The Byke Hospitality, Mumbai, overseeing menu development and kitchen operations since March 2025. Previously Sr. Sous Chef at PVR INOX Ltd (Jan 2024–Present) and Area Chef at Poptate's (Oct 2021–Jan 2024), he brings over ten years of experience in fast-paced kitchens across India and Dubai. A Hotel Management diploma holder from St. John's Institute of Hotel Management & Catering Technology (2006), Leo excels in team leadership, menu innovation, and quality-driven execution."
+    "normalText": "Gaurav Kokamkar is Commis 1 in Bakery & Confectionery at Byke Suraj Plaza, Thane (Dec 2024–present). A Hotel & Hospitality Management graduate from Sahyadri College, he completed an intensive internship at Taj Fort Aguada Resort & Spa. Rising through roles at Leonia Holistic Destination and Treats Resorts, he mastered artisanal breads and pastries—recognized for optimizing production workflows and delivering consistent, high‑quality results in fast‑paced kitchen environments."
   },
   {
     "id": 16,
@@ -159,7 +159,7 @@ export const data = [
   {
     "id": 24,
     "city": "Ecole Ducasse ISH",
-    "institute": "/images/pi/ishlogo.jpeg",
+    "institute": "/participants/ED.png",
     "normalText": "Ecole Ducasse ISH team representing world-class culinary education and French pastry excellence."
   },
   {
