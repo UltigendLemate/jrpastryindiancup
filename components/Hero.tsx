@@ -13,7 +13,7 @@ const Hero = (props: Props) => {
       <div className='z-20'>
         {/* <h3 className='text-white text-lg text-center font-bold uppercase'>Hammer Foods Presents</h3> */}
         <div className='flex flex-col text-center text-white text-3xl font-extrabold'>
-          <Link href="https://eurofoods.in">
+          <Link href="https://eurofoods.co.in">
             <img src="/sponsors/millac.png" className='mx-auto  h-20 md:h-32 my-4  rounded-xl ' alt="" />
           </Link>
 
