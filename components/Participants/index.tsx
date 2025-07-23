@@ -20,7 +20,7 @@ const Index = () => {
       <div id='Participants' className="pb-10 bg-white">  
         <div className="container m-auto text-gray-600 md:px-12 xl:px-6">
           <div className="mb-12 space-y-2 text-center">
-            <h2 className="font-ProzaLibre text-5xl md:text-7xl text-primary mt-12 mb-6 text-center special-font">Participanting Teams</h2>
+            <h2 className="font-ProzaLibre text-5xl md:text-7xl text-primary mt-12 mb-6 text-center special-font">Participating Teams</h2>
           </div>     
           <div className="grid justify-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 items-stretch gap-6 md:gap-8 text-black">
             {data.map((item) => (
