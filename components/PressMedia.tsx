@@ -18,7 +18,7 @@ const PressMedia = () => {
 
                 {/* Main Content Card */}
                 <div className='bg-white rounded-2xl shadow-lg overflow-hidden border-l-4 border-[#70e1b2]'>
-                    <div className='grid md:grid-cols-2 gap-8 p-8 items-center'>
+                    <div className='grid md:grid-cols-2 gap-8 md:p-8 p-3 items-center'>
 
                         {/* Left Column - Branding & Description */}
                         <div className='space-y-6'>
@@ -42,7 +42,7 @@ const PressMedia = () => {
                             </div>
 
                             <div className='text-gray-700'>
-                                <p className='mb-4'>
+                                <p className='mb-4 text-sm md:text-base'>
                                     All media coverage, press releases, and journalist inquiries for Junior Pastry Indian Cup 2025
                                     are handled exclusively by our official PR partner, Ashwini Publicity.
                                 </p>
@@ -51,7 +51,7 @@ const PressMedia = () => {
 
                         {/* Right Column - Contact Information */}
                         <div className='space-y-6'>
-                            <div className='bg-gray-50 rounded-lg p-6'>
+                            <div className='bg-gray-50 rounded-lg md:p-6 p-4'>
                                 <h3 className='text-xl font-semibold text-gray-900 mb-4'>
                                     Media Contact
                                 </h3>
@@ -66,7 +66,7 @@ const PressMedia = () => {
                                         </div>
                                     </div>
 
-                                    <div className='space-y-3'>
+                                    <div className='space-y-3 text-xs md:text-base'>
                                         <div className='flex items-center'>
                                             <Phone className='text-[#70e1b2] mr-3' size={16} />
                                             <a href="tel:+919869100555" className='text-gray-700 hover:text-[#70e1b2] transition-colors'>
@@ -76,7 +76,7 @@ const PressMedia = () => {
 
                                         <div className='flex items-center'>
                                             <Mail className='text-[#70e1b2] mr-3' size={16} />
-                                            <a href="mailto:shraddha.jadhav@ashwinipublicity.com" className='text-gray-700 hover:text-[#70e1b2] transition-colors text-sm'>
+                                            <a href="mailto:shraddha.jadhav@ashwinipublicity.com" className='text-gray-700 hover:text-[#70e1b2] transition-colors'>
                                                 shraddha.jadhav@ashwinipublicity.com
                                             </a>
                                         </div>

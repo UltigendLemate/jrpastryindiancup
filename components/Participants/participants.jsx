@@ -124,10 +124,10 @@ export const data = [
   },
   {
     "id": 19,
-    "name": "Mentor: Bhaskar Chakraborty",
-    "imagePath": "/participants/Bhaskar Chakraborty.png",
+    "name": "Mentor: Manas Kr Das",
+    "imagePath": "/participants/Manas.png",
     "isMentor": true,
-    "normalText": "Bhaskar Chakraborty is Executive Pastry Chef at JW Marriott Kolkata (June 2019–Present), overseeing a 60-chef team and crafting signature desserts for Tamra's multi-cuisine menus. Previously Pastry Chef at Sheraton Grand Whitefield Bengaluru (Feb 2016–June 2018) and Sous Chef at Hyatt Regency New Delhi (Dec 2013–Jan 2016), he excels in menu design, buffet revamps, cost control, and quality management across luxury properties."
+    "normalText": "Manas Kr Das is a dynamic hospitality professional. With over nine years at leading hotels—Swiss hotel, Leela, Novotel and Presently in JW Marriott Kolkata as a Sous Chef—he specializes in menu development, artisanal eggless and organic desserts, and end‑to‑end operations management. he has always been passionate about pastry, confectionery ,chocolate and viennoisserie products from his school days. An exceptionally committed and dedicated hotelier with strong work ethics, excellent planning skills, he loves creating something new and out of the box in order to evolve with the moving times. His strong dexterity comes from his vast experiences and extensive cognizance by associating with the national and international brands."
   },
   {
     "id": 20,
