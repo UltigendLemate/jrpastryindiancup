@@ -142,13 +142,13 @@ const Index = () => {
                   </div>
                   
                   {/* Register Now */}
-                  <div>
+                  {/* <div>
                     <li className="lg:text-base text-base bg-primary mb-4 lg:mb-0 hover:bg-primary rounded-lg text-black py-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-400">
                       <button onClick={() => setShowModal(true)}>
                         Register Now!
                       </button>
                     </li>
-                  </div>
+                  </div> */}
                   
                 </div>
                

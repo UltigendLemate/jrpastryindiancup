@@ -6,7 +6,38 @@ import Image from 'next/image'
 const Gallery = () => {
   return (
     <>
-      <h1 className='special-font text-[3.7rem] pb-5 mt-28 bg-white text-center sm:text-7xl md:text-8xl text-primary'>Gallery</h1>
+      <h2 className='special-font text-[1.7rem] pb-5 pt-28 bg-white text-center sm:text-6xl md:text-7xl text-primary'>congratulations to the winners</h2>
+      <div className='bg-white px-3'>
+        <div className='grid gap-3 grid-cols-2 sm:grid-cols-3 md:grid-cols-12 md:grid-rows-2'>
+          {/* Left portrait spanning both rows */}
+          <div className='md:col-span-2 md:row-span-2'>
+            <img src="/winners/winner-01.jpg" alt="Winner 1" className='rounded-md object-cover w-full h-full' />
+          </div>
+          {/* Top row landscapes */}
+          <div className='md:col-span-4 md:row-span-1'>
+            <img src="/winners/winner-06.jpg" alt="Winner 6" className='rounded-md object-cover w-full h-full' />
+          </div>
+          <div className='md:col-span-4 md:row-span-1'>
+            <img src="/winners/winner-04.jpg" alt="Winner 4" className='rounded-md object-cover w-full h-full' />
+          </div>
+          {/* Right portrait spanning both rows */}
+          <div className='md:col-span-2 md:row-span-2'>
+            <img src="/winners/winner-03.jpg" alt="Winner 3" className='rounded-md object-cover w-full h-full' />
+          </div>
+          {/* Bottom row: one landscape + two portraits */}
+          <div className='md:col-span-4 col-span-2 md:row-span-1'>
+            <img src="/winners/winner-02.jpg" alt="Winner 2" className='rounded-md object-cover w-full h-full' />
+          </div>
+          <div className='md:col-span-2 md:row-span-1'>
+            <img src="/winners/winner-05.jpg" alt="Winner 5" className='rounded-md object-cover w-full h-full' />
+          </div>
+          <div className='md:col-span-2 md:row-span-1'>
+            <img src="/winners/winner-07.jpg" alt="Winner 7" className='rounded-md object-cover w-full h-full' />
+          </div>
+        </div>
+      </div>
+      
+      <h1 className='special-font text-[3.7rem] pb-5 pt-16 bg-white text-center sm:text-7xl md:text-8xl text-primary'>Gallery</h1>
       <div className='grid grid-cols-2 md:grid-cols-4 px-3 bg-white gap-3 justify-center items-center'>
         <img src="/jpic2023/IMG_2017.JPG" alt="JPIC 2023 Image 1" className='object-contain rounded-md w-full h-full' />
         <img src="/jpic2023/IMG_2027.JPG" alt="JPIC 2023 Image 2" className='object-contain rounded-md w-full h-full' />
@@ -108,9 +139,6 @@ const Gallery = () => {
         <img src="/pics/IMG_4595.webp" alt="" className='object-contain rounded-md col-span-1' />
         <img src="/pics/IMG_4601.webp" alt="" className='object-contain rounded-md col-span-1' />
         <img src="/pics/IMG_4612.webp" alt="" className='object-contain rounded-md col-span-2 md:col-span-1' />
-
-
-s
 
 
 
