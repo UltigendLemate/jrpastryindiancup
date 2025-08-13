@@ -6,7 +6,7 @@ import Image from 'next/image'
 const Gallery = () => {
   return (
     <>
-      <h2 className='special-font text-[1.7rem] pb-5 pt-28 bg-white text-center sm:text-6xl md:text-7xl text-primary'>congratulations to the winners</h2>
+      <h2 className='special-font text-[1.7rem] pb-5 pt-28 bg-white text-center sm:text-6xl md:text-7xl text-primary'>Winners 2025 - APCA Gurugram</h2>
       <div className='bg-white px-3'>
         <div className='grid gap-3 grid-cols-2 sm:grid-cols-3 md:grid-cols-12 md:grid-rows-2'>
           {/* Left portrait spanning both rows */}
